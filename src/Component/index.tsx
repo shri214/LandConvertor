@@ -10,7 +10,6 @@ export const LandConverter: React.FC = () => {
     setSelectedValue(event.target.value);
     console.log(selectedValue);
   };
-  console.log("object", selectedValue);
 
   const calculateResult = (event: ChangeEvent<HTMLInputElement>) => {
     let inputValue = parseFloat(event.target.value);
